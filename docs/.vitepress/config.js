@@ -1,7 +1,7 @@
 export default {
   title: "业余无线电资料站",
   description: "业余无线电考试、设台、设备、天馈、中继台全指南",
-  base: '/hamdocs/',
+  base: '/bi4mox/',
   themeConfig: {
     
     nav: [
