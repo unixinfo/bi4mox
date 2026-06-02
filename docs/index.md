@@ -7,13 +7,11 @@ titleTemplate: ':title'
 hero:
   name: 我的文档站
   tagline: 业余无线电资料 · 中继台记录 · 实用资料
-  */ image:
-    */ src: /images/ham-logo.svg
-    */ alt: 业余无线电 Logo
+   
   actions:
     - theme: brand
       text: 开始使用
-      link: /guide/01-法律法规.html
+      link: /guide/01-法律法规
    
 
 features:
