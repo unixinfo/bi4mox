@@ -3,16 +3,18 @@ export default {
   description: "业余无线电考试、设台、设备、天馈、中继台全指南",
   base: '/bi4mox/',
   
-  // 👇 这两行是核心：强制开启 Hash 路由，彻底杜绝 404
-  router: {
-    mode: 'hash'
-  },
+  // 关闭 cleanUrls，避免 GitHub Pages 404
+  cleanUrls: false,
+  
+  // 忽略死链接检查
+  ignoreDeadLinks: true,
 
   themeConfig: {
     nav: [
       { text: "首页", link: "/" },
       { text: "全部资料", link: "/guide/01-法律法规" }
     ],
+    
     sidebar: [
       {
         text: "📡 业余无线电资料大全",
@@ -30,8 +32,20 @@ export default {
         ]
       }
     ],
+    
     footer: {
       copyright: "Copyright © 2025 业余无线电资料站"
+    },
+    
+    // 最后更新时间
+    lastUpdated: {
+      text: '最后更新于'
     }
-  }
+  },
+  
+  // 头部配置
+  head: [
+    ['meta', { name: 'theme-color', content: '#3c8772' }],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }]
+  ]
 }

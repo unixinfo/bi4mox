@@ -1,5 +1,5 @@
 {
-  "name": "hamdocs",
+  "name": "GitHub",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "preview": "vitepress preview docs",
+    "deploy": "npm run build && cp docs/.vitepress/dist/index.html docs/.vitepress/dist/404.html"
   },
   "keywords": [],
   "author": "BI4MOX",

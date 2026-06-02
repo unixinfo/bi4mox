@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+      (function() {
+        var path = window.location.pathname;
+        var base = '/bi4mox/';
+        // 提取路径中 base 后面的部分
+        var targetPath = path.replace(base, '');
+        
+        if (targetPath && targetPath !== '' && targetPath !== 'index.html') {
+          // 重定向到 index.html 并传递原始路径
+          window.location.replace(base + '?p=' + encodeURIComponent(path));
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    正在跳转...
+  </body>
+</html>
