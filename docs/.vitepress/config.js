@@ -11,7 +11,7 @@ export default {
 
   themeConfig: {
     nav: [
-      { text: "首页", link: "/" },
+      { text: "首页", link: "/index.html" },
       { text: "全部资料", link: "/guide/01-法律法规" }
     ],
     
