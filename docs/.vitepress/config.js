@@ -4,8 +4,8 @@ export default {
   base: '/bi4mox/',
   themeConfig: {
     nav: [
-      { text: "首页", link: "/" },
-      { text: "全部资料", link: "guide/01-法律法规" }
+      { text: "首页", link: "./" },
+      { text: "全部资料", link: "./guide/01-法律法规" }
     ],
     sidebar: [
       {
