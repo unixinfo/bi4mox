@@ -26,7 +26,7 @@ export default {
           { text: '📶 天馈系统经验', link: '/guide/05-天馈系统' },
           { text: '📋 设台申请与变更', link: '/guide/06-首次设台及变更申请' },
           { text: '🎉 线下活动记录', link: '/guide/07-业余活动' },
-          { text: '📞 中继台点名通联记录', link: '/guide/08-中继台点名通联记录' },
+          { text: '📞 中继台点名通联记录', link: '/guide/08-中继台点名通联记录/' },
           { text: '📊 中继台参数', link: '/guide/09-中继台参数' },
           { text: '❤️ 中继台捐赠', link: '/guide/10-中继台捐赠' }
         ]
