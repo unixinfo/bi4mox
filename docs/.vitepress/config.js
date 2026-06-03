@@ -23,11 +23,11 @@ export default {
           { text: '📝 业余无线电考试', link: '/guide/02-业余无线电考试' },
           { text: '📡 设台与许可相关', link: '/guide/03-设台与许可' },
           { text: '🔧 电台选择经验', link: '/guide/04-设备介绍' },
-		  { text: '🔧 电台配套设备', link: '/guide/11-电台周边' },
+		  { text: '🛠️ 电台配套设备', link: '/guide/11-电台周边' },
           { text: '📶 天馈系统经验', link: '/guide/05-天馈系统' },
           { text: '📋 设台申请与变更', link: '/guide/06-首次设台及变更申请' },
           { text: '🎉 线下活动记录', link: '/guide/07-业余活动' },
-          { text: '📞 中继台点名通联记录', link: '/guide/08-中继台点名通联记录/' },
+          { text: '📞 中继台点名通联', link: '/guide/08-中继台点名通联记录/' },
           { text: '📊 中继台参数', link: '/guide/09-中继台参数' },
           { text: '❤️ 中继台捐赠', link: '/guide/10-中继台捐赠' }
         ]
